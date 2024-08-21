@@ -1,0 +1,8 @@
+TODO
+
+--main file neural-net to be cleaned:
+       --models to be moved to py files
+
+
+--overfitting/underfitting file to be merged
+--Update README
