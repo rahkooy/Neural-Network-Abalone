@@ -1,8 +1,9 @@
 TODO
 
---main file neural-net to be cleaned:
+--main file is neural-net to be cleaned:
        --models to be moved to py files
+       --car database to be replaced with abalone database
 
+--overfit-underfit Jupyter notebook to be merged to neural-net
 
---overfitting/underfitting file to be merged
 --Update README

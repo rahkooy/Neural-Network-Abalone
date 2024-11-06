@@ -1,4 +1,4 @@
-# First NN model for Abalon
+# First Neural Network model only with dense layers of little depth
 
 from tensorflow import keras
 from tensorflow.keras import layers
