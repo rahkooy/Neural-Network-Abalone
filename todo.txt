@@ -1,5 +1,7 @@
 TODO
 
---main file: Conclusion/Comparison?
+--main file: Conclusion/Comparison the same as README?
 
---Update README
+--model 4: clean the url?
+
+--helper to be deleted?

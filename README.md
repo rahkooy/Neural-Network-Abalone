@@ -10,25 +10,26 @@ Walter Reade and Ashley Chow. Regression with an Abalone Dataset. https://kaggle
 
 
 ## Dataset
-- [Dataset at the UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/dataset/1/abalone), 
-[DOI](doi.org/10.24432/C55C7W)
+- Dataset at the [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/dataset/1/abalone) with 
+[doi.org/10.24432/C55C7W](doi.org/10.24432/C55C7W)
 - Licence: Creative Commons Attribution 4.0 International (CC BY 4.0) 
-- the Potential  main paper
 
 
 ## Requirements
 - `numpy`
-- `seaborn`
-- `pyplot` from `matplotlib`
+- `pandas`
+- `figure` and `pyplot` from `matplotlib`
 - `tensorflow`
 - `keras`
   - Optimizer: `Adam`
   - Models: `InceptionV3`, `ResNet50`, `DenseNet`
 - `sklearn`
-  - Metrics: `confusion_matrix`, `accuracy_score`
+  - Metrics: `MeanSquaredLogarithmicError`
 
 ## Utils Directory
-The `utils` directory includes Python files, each of which contains a CNN model and possibly some variants of it. It also contains helper.py, which includes the following auxiliary functions:
+The `utils` directory includes Python files, each of which contains a neural network model and possibly some variants of it. 
+
+????? It also contains helper.py, which includes the following auxiliary functions:
 - `datagen_train_dir`
 - `datagen_test_dir`
 - `plot_history`
@@ -36,6 +37,22 @@ The `utils` directory includes Python files, each of which contains a CNN model 
 - `plot_roc_au`
 
 ## Models Considered and Their Performance
-1. **Our Model**: 
-   - ...
-   - ... accuracy
+**Model 1**: 
+  - only with three dense layers
+  - minimum validation Mean Squared Logarithmic Error (msle): 0.033
+  - loss and  msle, as well as validation loss and validation msle are very close
+
+**Model 2**:
+  - only with dense layers of depth twice Model 1
+  - minimum validation Mean Squared Logarithmic Error (msle): 0.034
+  - loss and  msle, as well as validation loss and validation msle are very close
+
+**Model 3**:
+  - with dense layers of depth twice Model 1, with a dropout and a normalisation layer after each dense layer
+  - minimum validation Mean Squared Logarithmic Error (msle): 0.06
+  - loss and  msle, as well as validation loss and validation msle are very close
+
+**Model 4**:
+  - with more layers that Model 3, however, dense layers  have different and decreasing depth; it contains  dropout and normalisation layers but not the same order as Model 3
+  - minimum validation Mean Squared Logarithmic Error (msle): 0.085
+  - loss and  msle, as well as validation loss and validation msle are very close
