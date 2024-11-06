@@ -1,7 +1,10 @@
 # Neural Network Models for Abalone biology dataset
 
+We use "abalone", a biological dataset. The target feature is Rings: integer variable representing the age of the abalone (the number of rings on the shell). The goal of the dataset is to predict the age of the abalone (i.e., the number of rings) based on its physical characteristics. 
+
+
 ## Project Purpose
-- Apply pre-trained models for the predicting age in Abalone, a 
+- Apply pre-trained models for the predicting age in Abalone, 
 [Kaggle competition](www.kaggle.com/competitions/playground-series-s4e4/overview/$citation)
 Walter Reade and Ashley Chow. Regression with an Abalone Dataset. https://kaggle.com/competitions/playground-series-s4e4, 2024. Kaggle.
 - Implement new Neural Network models for predicting age in Abalone
