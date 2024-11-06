@@ -10,9 +10,9 @@ Walter Reade and Ashley Chow. Regression with an Abalone Dataset. https://kaggle
 
 
 ## Dataset
-- Dataset at the [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/dataset/1/abalone) with 
-[doi.org/10.24432/C55C7W](doi.org/10.24432/C55C7W)
-- Licence: Creative Commons Attribution 4.0 International (CC BY 4.0) 
+- Contains 4177 abalones with 9 features
+- Available at the [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/dataset/1/abalone) with 
+the Creative Commons Attribution 4.0 International (CC BY 4.0)  licence.
 
 
 ## Requirements
@@ -28,13 +28,6 @@ Walter Reade and Ashley Chow. Regression with an Abalone Dataset. https://kaggle
 
 ## Utils Directory
 The `utils` directory includes Python files, each of which contains a neural network model and possibly some variants of it. 
-
-????? It also contains helper.py, which includes the following auxiliary functions:
-- `datagen_train_dir`
-- `datagen_test_dir`
-- `plot_history`
-- `plot_confusion_matrix`
-- `plot_roc_au`
 
 ## Models Considered and Their Performance
 **Model 1**: 
