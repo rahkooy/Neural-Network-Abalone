@@ -1,7 +1,7 @@
 # Neural Network Models for Age Prediction in Abalones
 
 ## Project Purpose
-Predicting abalone's age, which is th enumber os rings on the shell.
+Predicting abalone's age, which is the number of rings on the shell.
 
 This was the topic of a [Kaggle competition](www.kaggle.com/competitions/playground-series-s4e4/overview/$citation) using regression. However, we would like to design simple neural networks for this purpose. The reference to the competetion is
 
