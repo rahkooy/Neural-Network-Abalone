@@ -41,27 +41,27 @@ neural network model and possibly some variants of it.
 ## Models Considered and Their Performance
 **Model 1**: 
   - only with three dense layers
-  - minimum validation Mean Squared Logarithmic Error (msle): 0.033
+  - minimum validation Mean Squared Logarithmic Error (msle): 0.0345
   - loss and  msle, as well as validation loss and validation msle 
   are very close
 
 **Model 2**:
   - only with dense layers of depth twice Model 1
-  - minimum validation Mean Squared Logarithmic Error (msle): 0.034
+  - minimum validation Mean Squared Logarithmic Error (msle): 0.0323
   - loss and  msle, as well as validation loss and validation msle 
   are very close
 
 **Model 3**:
   - with dense layers of depth twice Model 1, with a dropout and a 
   normalisation layer after each dense layer
-  - minimum validation Mean Squared Logarithmic Error (msle): 0.06
+  - minimum validation Mean Squared Logarithmic Error (msle): 0.0922
   - loss and  msle, as well as validation loss and validation msle 
   are very close
 
 **Model 4**:
   - with more layers that Model 3, however, dense layers  have 
   different and decreasing depth; it contains  dropout and normalisation layers but not the same order as Model 3
-  - minimum validation Mean Squared Logarithmic Error (msle): 0.085
+  - minimum validation Mean Squared Logarithmic Error (msle): 0.0591
   - loss and  msle, as well as validation loss and validation 
   msle are very close
 

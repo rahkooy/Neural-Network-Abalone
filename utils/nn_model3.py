@@ -24,7 +24,7 @@ class NeuralNetworkModel3:
 
         
 
-    def compile_model3(self, optimizer='adam', loss = MeanSquaredLogarithmicError(), metrics=['msle']):
+    def compile_model3(self, optimizer='adam', loss = MeanSquaredLogarithmicError(), metrics=['mae']):
         # compile the model
         self.network.compile(optimizer =optimizer, loss=loss, metrics=metrics)
 

@@ -15,7 +15,7 @@ class NeuralNetworkModel2:
         self.network.add(layers.Dense(512, activation='relu'))
         self.network.add(layers.Dense(1))
 
-    def compile_model2(self, optimizer='adam', loss = MeanSquaredLogarithmicError(), metrics=['msle']):
+    def compile_model2(self, optimizer='adam', loss = MeanSquaredLogarithmicError(), metrics=['mae']):
         # compile the model
         self.network.compile(optimizer =optimizer, loss=loss, metrics=metrics)
 
