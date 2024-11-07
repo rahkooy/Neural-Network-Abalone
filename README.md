@@ -8,7 +8,7 @@ We would like to design neural networks for this task and examine
 their performance. Our goal is to find out whether or not complex 
 neural networks perform better than regression. To do this, we start 
 with simple neural networks with few layers and depth and grow models 
-into the ones with more layers (and adding normalisation and batching) 
+into the ones with more layers (and adding normalisation and dropout) 
 with higher depth. Our experiments show that simpler models perform 
 better for this task. 
 The reference to the Kaggle competetion is the following.
