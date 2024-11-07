@@ -1,7 +1,20 @@
 TODO
 
+-Errors raising as models become complex shows that the method should
+ be reverse: from method 4 to method 1! Our data is like this
+
+-Why not using regression? It seems that regression is a good idea f
+ ro this as data is not huge and therefore traditional ML models
+ should be good: write that we are interested in seeing modern ML
+ methods like NN: put some motivation
+
+-Plots: change scale or something that one can see differences; stop
+ earlier: this is what plots show; there is kind of overfitting
+
 --main file: Conclusion/Comparison the same as README?
 
 --model 4: clean the url?
+
+--?? M/F column can be integer: 0 and 1
 
 --helper to be deleted?
