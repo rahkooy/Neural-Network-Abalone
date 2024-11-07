@@ -1,5 +1,4 @@
 # Fourth Neural Network model with much more layers
-# https://www.kaggle.com/code/eneskosar19/abalone-age-prediction-ann-regression#MODEL
 
 
 from tensorflow import keras
@@ -28,7 +27,6 @@ class NeuralNetworkModel4:
         self.network.add(layers.Dense(8, activation='relu')),
         self.network.add(layers.BatchNormalization()),
         self.network.add(layers.Dense(3, activation='relu')),
-        # Output layer
         self.network.add(layers.Dense(1, activation='linear'))
 
     def compile_model4(self, optimizer='adam', loss = MeanSquaredLogarithmicError(), metrics=['mae']):

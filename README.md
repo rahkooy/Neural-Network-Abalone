@@ -61,7 +61,8 @@ neural network model and possibly some variants of it.
 
 **Model 4**:
   - with more layers that Model 3, however, dense layers  have 
-  different and decreasing depth; it contains  dropout and normalisation layers but not the same order as Model 3
+  different and decreasing depth; it contains  dropout and 
+  normalisation layers but not the same order as Model 3
   - minimum validation Mean Squared Logarithmic Error (msle): 0.0591
   - loss and  msle, as well as validation loss and validation 
   msle are very close

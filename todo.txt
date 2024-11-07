@@ -1,11 +1,5 @@
 TODO
 
--stop earlier: this is what plots show; there is kind of overfitting
-
 -Plots: change scale or something that one can see differences;
-
---main file: Conclusion/Comparison the same as README?
-
---model 4: clean the url?
 
 --helper to be deleted?
