@@ -10,7 +10,8 @@ neural networks perform better than regression. To do this, we start
 with simple neural networks with few layers and depth and grow models 
 into the ones with more layers (and adding normalisation and dropout) 
 with higher depth. Our experiments show that simpler models perform 
-better for this task. 
+better for this task, which suggests using traditional ML methods such 
+as regression.
 The reference to the Kaggle competetion is the following.
 
 Walter Reade and Ashley Chow. Regression with an Abalone Dataset. 
