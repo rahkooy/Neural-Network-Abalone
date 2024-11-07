@@ -66,7 +66,7 @@ neural network model and possibly some variants of it.
   msle are very close
 
 ## Conclusion
-For the given data, a simple regression performs better than  
+For the given data, a simple regression performs better than 
 Complex Neural Networks. This is implied by the fact that the 
 increase in the number and the depth of the layers in neural networks 
 result higher error values and more CPU time. 
