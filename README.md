@@ -6,8 +6,12 @@ Predicting abalone's age, which is the number of rings on the shell.
 This was the topic of a [Kaggle competition](www.kaggle.com/competitions/playground-series-s4e4/overview/$citation). 
 We would like to design neural networks for this task and examine 
 their performance. Our goal is to find out whether or not complex 
-neural networks perform better than regression.
-The reference to the competetion is the following.
+neural networks perform better than regression. To do this, we start 
+with simple neural networks with few layers and depth and grow models 
+into the ones with more layers (and adding normalisation and batching) 
+with higher depth. Our experiments show that simpler models perform 
+better for this task. 
+The reference to the Kaggle competetion is the following.
 
 Walter Reade and Ashley Chow. Regression with an Abalone Dataset. 
 https://kaggle.com/competitions/playground-series-s4e4, 2024. Kaggle.
