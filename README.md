@@ -12,7 +12,7 @@ into the ones with more layers (and adding normalisation and dropout)
 with higher depth. Our experiments show that simpler models perform 
 better for this task, which suggests using traditional ML methods such 
 as regression.
-The reference to the Kaggle competetion is the following.
+The reference to the Kaggle competition is the following.
 
 Walter Reade and Ashley Chow. Regression with an Abalone Dataset. 
 https://kaggle.com/competitions/playground-series-s4e4, 2024. Kaggle.
@@ -60,9 +60,9 @@ neural network model and possibly some variants of it.
   are very close
 
 **Model 4**:
-  - with more layers that Model 3, however, dense layers  have 
+  - with more layers than Model 3, however, dense layers  have 
   different and decreasing depth; it contains  dropout and 
-  normalisation layers but not the same order as Model 3
+  normalisation layers but not in the same order as Model 3
   - minimum validation Mean Squared Logarithmic Error (msle): 0.0591
   - loss and  msle, as well as validation loss and validation 
   msle are very close
@@ -71,4 +71,4 @@ neural network model and possibly some variants of it.
 For the given data, a simple regression performs better than 
 Complex Neural Networks. This is implied by the fact that the 
 increase in the number and the depth of the layers in neural networks 
-result higher error values and more CPU time. 
+result in higher error values and more CPU time. 
