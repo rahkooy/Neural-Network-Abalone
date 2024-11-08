@@ -1,4 +1,4 @@
-# Third Neural Network model with dense layers of depth twice model1, and Dropout and Normalisation after each dense layer
+# Third Neural Network model with with dense layers of depth twice Model 1 and Dropout and Normalisation after each dense layer
 
 from tensorflow import keras
 from tensorflow.keras import layers

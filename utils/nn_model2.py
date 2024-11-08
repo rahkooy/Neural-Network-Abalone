@@ -1,4 +1,4 @@
-# Second Neural Network model only with dense layers of depth twice model1
+# Second Neural Network model only with dense layers of depth twice Model 1
 
 from tensorflow import keras
 from tensorflow.keras import layers

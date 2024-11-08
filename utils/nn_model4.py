@@ -1,4 +1,4 @@
-# Fourth Neural Network model with much more layers
+# Fourth Neural Network model with several dense, dropout and normalisations layers, more than Model 3
 
 
 from tensorflow import keras
