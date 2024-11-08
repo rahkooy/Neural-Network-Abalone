@@ -1,3 +1,0 @@
-TODO
-
--Plots: change scale or something that one can see differences;
